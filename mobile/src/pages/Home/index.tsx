@@ -78,7 +78,7 @@ const Home: React.FC<Props> = ({navigation}) => {
       <View style={styles.main}>
 
         <Image source={require('../../assets/logo.png') /* Inportacao do logo.*/} />
-        
+
         <Text style={styles.title}>Seu marketplace de coleta de resíduos.</Text>
         <Text style={styles.description}>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.</Text>
 
