@@ -2,8 +2,6 @@ import React, { useState, useEffect, ChangeEvent } from 'react';
 import { Feather as Icon} from "@expo/vector-icons";
 import { KeyboardAvoidingView, Platform, TextInput, View, ImageBackground, Text, Image, StyleSheet} from 'react-native';
 import { RectButton } from "react-native-gesture-handler";
-//import { useNavigation } from '@react-navigation/native'
-//import RNPickerSelect from 'react-native-picker-select';
 import axios from 'axios';
 import { AppLoading } from "expo";
 
