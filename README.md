@@ -4,6 +4,7 @@
 <p> &nbsp; Developed during the Rocketseat - Next Level Week event from June 1-7, 2020.</p>
 <p> &nbsp; Encoded with NodeJS, React and React Native.</p>
 
+#
 <br/>
 
 - O tema do projeto vem da necessidade de ajudar as pessoas a encontrar pontos de coleta de lixo reciclável com eficiência.</p>
