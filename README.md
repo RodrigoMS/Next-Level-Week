@@ -15,13 +15,13 @@
 ### Start Back-end
 
 
-<p> 🇱🇷 &nbsp;In the PointsController.ts file located in server / src / controllers, replace image_URL (line 31) with the machine's IP (server).</p>
-<p>&nbsp;&nbsp; In the ItemsController.ts file located in server / src / controllers, replace image_URL (line 17) with the machine's IP (server).</p>
+<p> 🇱🇷 &nbsp; &nbsp; In the PointsController.ts file located in server / src / controllers, replace image_URL (line 31) with the machine's IP (server).</p>
+<p>&nbsp;&nbsp;&nbsp; In the ItemsController.ts file located in server / src / controllers, replace image_URL (line 17) with the machine's IP (server).</p>
 
 #
 
-<p>🇧🇷&nbsp;No arquivo PointsController.ts localizado em server/src/controllers troque image_URL (linha 31) pelo IP da máquina  (servidor).</p>
-<p>&nbsp;&nbsp; No arquivo ItemsController.ts localizado em server/src/controllers troque image_URL (linha 17) pelo IP da máquina  (servidor).</p>
+<p>🇧🇷 &nbsp; &nbsp; No arquivo PointsController.ts localizado em server/src/controllers troque image_URL (linha 31) pelo IP da máquina  (servidor).</p>
+<p>&nbsp;&nbsp;&nbsp; No arquivo ItemsController.ts localizado em server/src/controllers troque image_URL (linha 17) pelo IP da máquina  (servidor).</p>
 
 ```bash
 # ------------------ Primeira execução ----------------------
@@ -42,11 +42,11 @@ $ npm run dev
 ### Start Front-end
 
 
-<p>🇱🇷&nbsp;&nbsp;In the api.ts file located at web / src / services, change baseURL (line 4) with the machine's IP (server).</p>
+<p>🇱🇷 &nbsp; &nbsp; In the api.ts file located at web / src / services, change baseURL (line 4) with the machine's IP (server).</p>
 
 #
 
-<p>🇧🇷&nbsp;&nbsp;No arquivo api.ts localizado em web/src/services troque baseURL (linha 4) pelo IP da máquina (servidor).</p>
+<p>🇧🇷 &nbsp; &nbsp; No arquivo api.ts localizado em web/src/services troque baseURL (linha 4) pelo IP da máquina (servidor).</p>
 
 ```bash
 # Inicie o Front-end no terminal dentro da pasta web.
