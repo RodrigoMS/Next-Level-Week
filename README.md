@@ -26,6 +26,9 @@
 ```bash
 # ------------------ Primeira execução ----------------------
 
+# Instalação das dependências do projeto.
+$ npm install   ou   npm i
+
 # Realizar uma migração do banco de dados.
 $ npm run knex:migrate
 
