@@ -1,0 +1,124 @@
+https://nextlevelweek.com/aulas/booster/1/edicao/1
+
+Criando o projeto
+Inicialmente criar a pasta do projeto "nlw"
+
+Dentro desta pasta um outro diretório com o nome de "server"
+
+No terminal entre na pasta server e inicie a aplicação, com todos os valores default aplicando o comando "npm init -y"
+
+Sera criado o arquivo "package.json" que contem as informações principais do projeto
+
+No VisualCode tecle Ctrl + Shift + P para instalar o comando code para que quando quiser abrir um projeto no VisualCode será necessário apenas digitar "code ."
+
+Instale pelo terminal o express que é um micro frame para lidar com rotas - "npm install express"
+
+Instale pelo terminal a definição de tipo do type utilizando - "npm install @types/express -D"
+obs: o "-D" indica que é uma dependência de desenvolvimento, ela só vai ser usada enquanto estiver em desenvolvimento
+quando ela for online esta dependência não sera mais necessário
+
+Ctrl encima do app e depois Ctrl em cima do express() - ele vai para dentro do pacote de definição do express.
+
+Instalação do ts-node "npm install ts-node -D"
+obs.: Possui binários que executam o código convertendo o type em java
+
+Instalar o type - "npm install type -D"
+
+Criar arquivo de configuração do type - "npx tsc --init"
+
+Para executar no terminal utilize "npx ts-node src/server.ts"
+
+Extensão para o Chrome para visualização de JSON - "jon viewer"
+
+Para não ficar parando e iniciando o servidor toda vez que o código é alterado instale ts-node-dev - "npm install ts-node-dev -D"
+
+Para executar  utilize "npx ts-node-dev src/server.ts"
+
+Alteração no arquivo "package.json" - troca da linha "test ..." dentro do s para 
+"dev": "ts-node-dev src/server.ts"
+
+Agora para executar digite o nome do  "dev" no terminal, ficando - "npm run dev"
+
+Obs: No lugar de "dev" pode ser qualquer nome.
+
+-- React --
+Saindo da pasta "server"
+Crie um app React com o comando - "npx create-react-app <nome da aplicação>" --template=type
+Para este projeto : npx create-react-app web --template=type
+
+Obs.: O --template-type, indica que será utilizado type neste app react
+
+---------------------------- Código
+cd import express from 'express';
+
+const app = express();
+
+app.get('/user', (request, response) => {
+	console.log('Listagem de usuários');
+
+	
+	//response.send('Hello World')
+
+	// Pode ser utilizado para retornar um único dado ou um array. 
+	response.json([
+		"Diego",
+		"Cleiton",
+        "Rodson",
+        "Rodrigo"
+	])
+});
+
+app.listen(3333);
+
+------------------------------------------------------------------------------------------------------ Fim  primeiro dia ---------------------------------------------------------------------------------------------------------------------------------------
+
+Segundo dia 
+
+Rota: Endereço completo da  requisição
+Recurso: Qual entidade estamos acessando do sistema
+
+GET: Buscar uma ou mais informações do back-end
+POST: Criar uma nova informação no back-end
+PUT: Atualizar uma informação existente no back-end
+DELETE: Remover uma informação do back-end
+
+Request Param: Paramentos que vem na própria rota que identifica um recurso
+Query Param: Parâmetros que vem na própria rota geralmente opcionais para filter, paginação
+Request Body: Parâmetros para criação de informação
+
+Instalação do visualizador do SQlite no VRcode
+https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite
+
+No VScode tecle Ctrl+P e cole "ext install alexcvzz.vscode-sqlite"
+Depois Ctrl+Shift+P e busque por SQLite Database
+Com Ctrl+Shift+P é possível realizar consultas com comandos SQL e executa-las 
+
+Inserir no arquivo Packaje.json
+"knex:migrate": "knex migrate:latest --knexfile knexfile.ts migrate:latest"
+para executar as migrações com npm rum knex:migrate
+
+Site de imagens gratuitas - Unsplash.com
+
+------------------------------------------------------------------------------------------------------ Fim segundo dia ---------------------------------------------------------------------------------------------------------------------------------------
+
+Terceito dia
+
+Ctrl + Shift + p - procure por json - Preferences:Open Settings(JSON)
+
+"workbench.colorTheme": "Omni",
+"workbench.iconTheme": "material-icon-theme",
+"window.zoomLevel": 1
+
+div#app>ul>li*5 - cria estrutura no VSCode  
+
+Mapa para aplicacao - Leaflet
+
+Localidades IBGE - busque pelo google "ibge api" - https://servicodados.ibge.gov.br/api/docs/localidades?versao=1
+No site menu lateral UFs - https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-UFs-estadosGet
+Municipios por UF - https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-Municipios-estadosUFMunicipiosGet
+
+Exemplos de utilizacao do react com type - busque por "type react cheat sheet"
+https://github.com/type-cheatsheets/react-type-cheatsheet
+
+
+
